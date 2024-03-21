@@ -1,0 +1,107 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(47, 88%, 63%);
+}
+.figtree-font {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500,800;
+  font-style: normal;
+}
+
+.Card{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-top: 30rem;
+  margin-right: 25rem;
+}
+
+.Card-container{
+  display: flex;
+  justify-content: center;
+  height: 31rem;
+  width: 24rem;
+  background-color: white;
+  border-color: black;
+  border-radius: 20px;
+  position: fixed;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.BackCard{
+  margin-left: 10px;
+  margin-top: 20px;
+  height: 31rem;
+  width: 24rem;
+  background-color: black;
+  border: 10px;
+  border-color: black;
+  border-radius: 20px;
+  position: fixed;
+
+}
+
+img{
+  margin-top: 1.25rem;
+  width: 22rem;
+  border-radius: 10px;
+}
+
+.HeadingCard{
+  height: 25px;
+  width: 70px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius:5px ;
+}
+
+.Heading{
+  padding-top: 5px;
+  font-size: small;
+  text-align: center;
+  font-weight: 800;
+  font-family: "Figtree", sans-serif;}
+
+.Date{
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Figtree", sans-serif;}
+
+.ArticleHeading{
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  
+}
+
+.Content{
+  margin-top: 1.5rem;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Figtree", sans-serif;
+  color: gray;
+ 
+}
+
+.Person{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 15px;
+}
+
+.profile{
+  max-width: 30px;
+  max-height: 30px;
+ 
+}
+
+.name{
+  font-weight: 800;
+  font-family: "Figtree", sans-serif;
+  font-size: 12px;
+  margin-top: 1.5rem;
+}

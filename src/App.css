@@ -76,6 +76,9 @@ img{
   font-size: 20px;
   
 }
+.ArticleHeading:hover{
+  color: hsl(47, 88%, 63%);
+}
 
 .Content{
   margin-top: 1.5rem;
